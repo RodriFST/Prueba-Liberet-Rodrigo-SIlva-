@@ -1,0 +1,119 @@
+
+
+
+
+.bar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(252, 252, 252);
+    height: 10vh;
+    font-family: 'Gotham' sans-serif;
+
+}
+
+.icons{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.icons a{
+    box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.5);
+    position: relative;
+    font-size: 0.9rem;
+    height: 40px;
+    width: auto ;
+    padding: 0px 15px 3px 0;
+    background: rgb(255, 255, 255);
+    border-radius: 20px;
+    margin: 10px;
+    font-weight: 500;
+    justify-content: center;
+    
+}
+
+
+
+.icons img{
+    width: 20px;
+    height: 20px;
+    padding: 8px 5px 0 10px ;
+    
+}
+
+
+
+.day{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  
+}
+
+.day h1{
+    position: relative;
+    left: 3px;
+    font-size: 0.8rem;
+    margin-right: 22px;
+}
+
+.number{
+    display: flex;
+    width: 100%;
+    justify-content: center
+}
+.number button{
+    background: white;
+    border:none;
+    border-radius: 55px;
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+    transition: 0.5s ease-out;
+
+}
+
+.number button:hover{
+    background: #FCAB3F;
+}
+
+
+.inputP{
+    width: 100%;
+    box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.2);
+    height: 40px;
+}
+
+.inputP input{
+    margin-left: 28px;
+    width: 72%;
+    height: 70%;
+    border: none;
+    cursor: pointer;
+}
+
+.inputP img{
+    position: relative;
+    top: 7px;
+    left: 15px;
+    cursor: pointer;
+
+}
+
+
+
+
+
+@media(min-width:772px){
+
+    .inputP input{
+        margin-left: 28px;
+        width: 88%;
+        height: 70%;
+        border: none;
+    }
+    }
+
+
